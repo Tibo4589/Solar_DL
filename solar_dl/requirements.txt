@@ -1,0 +1,14 @@
+# On top of the PyTorch module of the labs (torch, torchvision, numpy come from the module)
+segmentation-models-pytorch>=0.5
+timm
+huggingface_hub
+rasterio
+geopandas>=1.0
+shapely>=2.0
+scipy
+pandas
+matplotlib
+tqdm
+pillow
+# only if you use --model segformer_hf:
+transformers
