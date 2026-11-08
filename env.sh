@@ -11,8 +11,7 @@ module load PyTorch-bundle/2.9.1-foss-2025a-CUDA-12.8.0-whl
 
 # 2. The SHARED project folder (data + runs + outputs). ONE path, the same for both of you.
 #    It lives in the $VSC_DATA of one of you and is shared through a VSC group (guide, step 0.2).
-#    TODO: replace by the real path, e.g. /data/leuven/3xx/vsc3xxxx/solar_project
-export SOLAR_ROOT=${SOLAR_ROOT:-/data/leuven/CHANGE/ME/solar_project}
+export SOLAR_ROOT=${SOLAR_ROOT:-/data/leuven/394/vsc39418/solar_project}
 
 # 3. Caches for downloaded pretrained weights: NOT in $VSC_HOME (its quota is small)
 export HF_HOME=$SOLAR_ROOT/cache/huggingface
