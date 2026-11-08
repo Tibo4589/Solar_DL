@@ -10,7 +10,7 @@
 #   --time      : a full U-Net run on ~5,000 images should take well under the limit below;
 #                 check the duration of your first real run and adjust (shorter jobs start sooner).
 #SBATCH --job-name=solar
-#SBATCH --account=lp_CHANGE_ME
+#SBATCH --account=lp_deeplearning_gt_2026b
 #SBATCH --clusters=wice
 #SBATCH --partition=gpu_a100
 #SBATCH --nodes=1
