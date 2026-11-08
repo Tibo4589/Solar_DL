@@ -57,11 +57,11 @@ METADATA_CSV = BDAPPV_DIR / "metadata.csv"
 FLANDERS_DIR = DATA_DIR / "flanders"
 LABELS_DIR = FLANDERS_DIR / "labels"      # chips to label + your QGIS polygons (steps 10-11)
 
-PROCESSED_DIR = SOLAR_ROOT / "processed"
-RUNS_DIR = SOLAR_ROOT / "runs"
+PROCESSED_DIR = SOLAR_ROOT / "Solar_DL/processed"
+RUNS_DIR = SOLAR_ROOT / "Solar_DL/runs"
 RESULTS_CSV = RUNS_DIR / "results.csv"
-OUTPUTS_DIR = SOLAR_ROOT / "outputs"
-PLOTS_DIR = SOLAR_ROOT / "plots"
+OUTPUTS_DIR = SOLAR_ROOT / "Solar_DL/outputs"
+PLOTS_DIR = SOLAR_ROOT / "Solar_DL/plots"
 
 # ---------------------------------------------------------------------------
 # SETTINGS: edit these as you make decisions (write down WHY in your log)

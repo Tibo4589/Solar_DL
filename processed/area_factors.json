@@ -1,0 +1,11 @@
+{
+  "pixel_m2": 0.04000000000000001,
+  "m2_per_kwp_bdappv_median": 0.007142857142857143,
+  "m2_per_kwp_bdappv_iqr": [
+    0.0064,
+    0.007770270270270271
+  ],
+  "median_tilt_deg": 30.0,
+  "inv_cos_median_tilt": 1.1547005383792515,
+  "projected_over_surface_median": 1.0336
+}
