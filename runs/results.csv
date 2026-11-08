@@ -1,0 +1,2 @@
+time,who,run,model,encoder,loss,lr,frac,freeze_encoder,pretrained,init_from,data,n_train,epochs_run,best_epoch,val_iou,val_f1,val_precision,val_recall,params_M,train_min
+2026-11-08 18:01,vsc39418,unet_base,unet,default,bce_dice,0.0001,1.0,False,True,,bdappv,4935,35,27,0.7213,0.8381,0.8376,0.8386,24.44,15.0
