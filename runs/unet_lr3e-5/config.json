@@ -1,0 +1,17 @@
+{
+  "model": "unet",
+  "encoder": null,
+  "loss": "bce_dice",
+  "lr": 3e-05,
+  "frac": 1.0,
+  "freeze_encoder": false,
+  "pretrained": true,
+  "init_from": null,
+  "data": "bdappv",
+  "extra_dir": null,
+  "extra_gsd": null,
+  "split_file": "split.csv",
+  "batch_size": 16,
+  "epochs": 40,
+  "quick": false
+}

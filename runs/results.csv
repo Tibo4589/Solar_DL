@@ -1,2 +1,6 @@
 time,who,run,model,encoder,loss,lr,frac,freeze_encoder,pretrained,init_from,data,n_train,epochs_run,best_epoch,val_iou,val_f1,val_precision,val_recall,params_M,train_min
 2026-11-08 18:01,vsc39418,unet_base,unet,default,bce_dice,0.0001,1.0,False,True,,bdappv,4935,35,27,0.7213,0.8381,0.8376,0.8386,24.44,15.0
+2026-11-14 09:54,vsc39418,unet_dice,unet,default,dice,0.0001,1.0,False,True,,bdappv,4935,35,27,0.7206,0.8376,0.8315,0.8439,24.44,12.9
+2026-11-14 09:56,vsc39418,unet_bce,unet,default,bce,0.0001,1.0,False,True,,bdappv,4935,40,35,0.7022,0.8251,0.8326,0.8177,24.44,15.5
+2026-11-14 10:04,vsc39418,unet_lr3e-4,unet,default,bce_dice,0.0003,1.0,False,True,,bdappv,4935,25,17,0.7066,0.8281,0.8213,0.835,24.44,9.2
+2026-11-14 10:11,vsc39418,unet_lr3e-5,unet,default,bce_dice,3e-05,1.0,False,True,,bdappv,4935,40,32,0.6991,0.8229,0.8147,0.8312,24.44,14.8
